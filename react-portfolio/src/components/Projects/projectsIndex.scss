@@ -1,0 +1,38 @@
+.project-page {
+    width: 100%;
+    margin-top: 20px;
+}
+.text-zone{
+    position:absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+
+    p {
+        font-size: 18px;
+        width:100%;
+        box-sizing: content-box;
+    }
+}
+
+h1{
+    color:#5e7e0f;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.projects-picture{
+     width: 70%;
+     height: 100%;
+     top: 0;
+     position: flex;
+
+}
