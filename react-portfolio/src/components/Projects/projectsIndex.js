@@ -21,7 +21,7 @@ const Projects = () => {
 
     return (
         <>
-        <div className='project-page'>
+        <div className='container project-page'>
             <div className='text-zone'>
             <h1>
                 <AnimatedLetters letterClass={letterClass} strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
@@ -34,8 +34,8 @@ const Projects = () => {
             </p>
             </div>
         </div>
-        <div className='projects-picture'>
-            <img src={tastebuds} alt='tastebuds'></img>
+        <div className='container projects-picture'>
+            <img src={tastebuds} alt='tastebuds' className=''></img>
             
         </div>
         <Loaders type='pacman' />
