@@ -1,4 +1,4 @@
-.project-page {
+.projects-page {
     width: 100%;
     margin-top: 20px;
 }
@@ -15,19 +15,18 @@
         width:100%;
         box-sizing: content-box;
     }
-}
 
-h1{
-    color:#5e7e0f;
-    font-size: 53px;
-    margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-}
-
-h3{
-    font-size: 30px;
+    h1{
+        color:#5e7e0f;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
     
+    h3{
+        font-size: 30px; 
+    }
 }
 
 .projects-picture{
