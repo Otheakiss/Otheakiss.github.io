@@ -29,8 +29,9 @@ const Contact = () => {
                     idx={15}/>
                 </h1>
                 <p>
-                    If you have any questions or would just like to chat, don't hestiate to contact me on LinkedIn.
+                    If you have any questions or would just like to chat, don't hestiate to contact me on LinkedIn.                    
                 </p>
+             
             </div>
             <div className='contact-picture'>
                 <img src={BrittanyThinking} alt="Brittany-thinking"></img>

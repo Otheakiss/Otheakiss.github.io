@@ -1,7 +1,41 @@
-.contact-picture {
-    width: 500px;
-    height: auto;
-    top: 0;
-    margin-left: 30%;
-    margin-top: 50%x;
+.contact-page{
+    .text-zone{
+        h1 {
+            justify-content: center;
+        }
+
+        p {
+            font-size: 20px;
+            margin: unset;
+            justify-content: center;
+        }
+
+    }
+    .contact-picture{
+        img{
+            width: 495px;
+            margin-top: 0%;
+            margin-left: 58%;
+        }
+    }
+
+}
+@media screen and (max-width: 1190px) {
+    .contact-page{
+        .text-zone{
+            h1 {
+                margin-top: 15%;
+            }
+            p{
+                margin-left: 10%;
+            }
+
+        }
+    .contact-picture{
+        img{
+            width: 25%;
+            margin-left: 38%;
+        }
+    }
+}
 }
