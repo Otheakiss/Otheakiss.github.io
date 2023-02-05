@@ -36,10 +36,10 @@ const Home = () => {
                 <h2>Full-Stack Developer | Knowledge Seeker | Gamer</h2>
                 <Link to="/contact" className='flat-button'>Contact Me</Link>
             </div>
-        </div> 
         <div>
         <img src={Brittany} alt='Developer' class="animate__animated animate__backInUp"></img>
-      </div>  
+      </div>
+      </div>
       <Loader type="pacman" />
       </>   
     );

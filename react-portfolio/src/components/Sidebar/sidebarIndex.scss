@@ -135,6 +135,8 @@
     .logo {
         img {
             margin:0;
+            margin-left: 10px;
+            margin-top: 5px;
            
         }
     }
@@ -147,10 +149,10 @@
         padding-top: 30px;
         width: 35%;
         top: 0;
-        left: 55%;
+        left: 65%;
         right: 0;
         background:#fff9dc;
-        height: 42%;
+        height: 50%;
         margin: 0;
         z-index: 2;
         position: fixed;
