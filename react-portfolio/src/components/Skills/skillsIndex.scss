@@ -1,0 +1,56 @@
+.skills-page {
+    .text-zone {
+        h1 {
+            justify-content: center;
+        }
+
+        p {
+            margin: auto;
+        }
+
+
+    }
+
+    .button {
+        position: relative;
+        display: inline-block;
+        margin: 20px;
+    }
+    
+    .button a {
+        color: #e25b45;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #e25b45;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 2.8s backwards;
+        white-space: nowrap;
+        border-radius: 10px;
+
+        &:hover {
+            background: #e25b45;
+            color: #fff9dc;
+        }
+    }
+
+
+}
+
+.mobile-sparkles {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .regular-sparkles {
+        display: none;
+    }
+
+}
